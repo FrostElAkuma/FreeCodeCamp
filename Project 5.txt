@@ -1,0 +1,567 @@
+MASTER PIECE 
+
+https://codepen.io/frostelakuma/pen/ExPqEdy
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+</head>
+
+<body>
+  <header>
+<nav id="navbar">
+  <ul>
+    <li ><a href="#welcome-section" class="ab">About</a></li>
+    <li ><a href="#projects" class="wo">Work</a></li>
+    <li ><a href="#contact" class="co">Contact</a></li>
+  </ul>
+  </nav>
+  </header>
+  
+  <section id="welcome-section">
+    <br><br>
+    <h1>Hey I am Frost</h1>
+    <p> <i>a web developer</i></p>
+    <br>
+    <div id="rect">UwU</div>
+  </section>
+  
+  <section id="projects">
+    <br><br><br><br><br><br>
+    <div class="protec"><h2>These are some of my projects</h2></div>
+      <div id="border"></div> 
+      <br><br><br><br>
+    
+    <div class="container">
+      
+  <div class="item1" ></div>
+      
+  <a 
+     href="http://aqwwiki.wikidot.com/yulgar-s-borgars-location" 
+     target="_blank" 
+     id="item2" class="link">
+    <img
+        class="link-image"      
+        alt="project"
+      />
+      <p class="project-tile">
+        <span class="code">&lt;</span>
+        
+        <span class="code">&#47;&gt;</span>
+      </p>
+      </a>
+      
+  <a 
+     href="http://aqwwiki.wikidot.com/yulgar-s-borgars-location" 
+     target="_blank" 
+     id="item3" class="link">
+    <img
+        class="link-image"       
+        alt="project"
+      />
+      <p class="project-tile">
+        <span class="code">&lt;</span>
+        
+        <span class="code">&#47;&gt;</span>
+      </p>
+      </a>
+  <a 
+     
+     target="_blank" 
+     id="item4" class="link">
+    <img
+        class="link-image"       
+        alt="project"
+      />
+      <p class="project-tile">
+        <span class="code">&lt;</span>
+        
+        <span class="code">&#47;&gt;</span>
+      </p>
+      </a>
+  <div class="item5"></div>
+  <a 
+     href="http://aqwwiki.wikidot.com/yulgar-s-borgars-location" 
+     target="_blank" 
+     id="item6" class="link">
+    <img
+        class="link-image"       
+        alt="project"
+      />
+      <p class="project-tile">
+        <span class="code">&lt;</span>
+        
+        <span class="code">&#47;&gt;</span>
+      </p>
+      </a>
+  <a 
+     href="http://aqwwiki.wikidot.com/yulgar-s-borgars-location" 
+     target="_blank" 
+     id="item7" class="link">
+    <img
+        class="link-image"       
+        alt="project"
+      />
+      <p class="project-tile">
+        <span class="code">&lt;</span>
+        
+        <span class="code">&#47;&gt;</span>
+      </p>
+      </a>
+  <a 
+     href="http://aqwwiki.wikidot.com/yulgar-s-borgars-location" 
+     target="_blank" 
+     id="item8" class="link">
+    <img
+        class="link-image"       
+        alt="project"
+      />
+      <p class="project-tile">
+        <span class="code">&lt;</span>
+        
+        <span class="code">&#47;&gt;</span>
+      </p>
+      </a>   
+</div>  
+    
+    <br><br><br><br>
+    
+    <button class="bobo">Show all <i class="fas fa-chevron-right"></i></button>
+    
+    <br><br><br><br>
+  </section>
+  
+  <section id="contact">
+    
+    <h3>Let's work together</h3>
+    <p class="owo"> <i>How do you take your coffee? </i></p>
+    
+    <div class="contact-links">
+      <a href="" target="_blank"
+         class="uwu"> <i class="fas fa-paw"></i> Anilist</a>
+      
+      <a href="" target="_blank"
+         class="uwu"> <i class="fas fa-kiwi-bird"></i> Anilist</a>
+      
+      <a href="" target="_blank"
+         class="uwu"> <i class="fas fa-dragon"></i> Anilist</a>
+      
+      <a href="" target="_blank"
+         class="uwu"> <i class="fas fa-cat"></i> Anilist</a>
+    </div>
+   
+  </section>
+  <hr style="height:3px; background-color: #ff3333; border-style:none;">
+  <footer>
+    <br><br>
+    <p>
+    **This is just a fake portfolio. Tried to code it my self so it looks like the one in the Freecodecamp project
+  </p>
+    <br>
+  <p>
+    &copy; Created for
+    <a href="https://www.freecodecamp.com/" target="_blank"
+      >freeCodeCamp <i class="fab fa-free-code-camp"></i
+    ></a>
+  </p> 
+    <br><br>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+html{
+  box-sizing: border-box; 
+  font-size: 62.5%; 
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1200px) {
+  html{
+    font-size: 60%; 
+  }
+}
+
+@media (max-width: 980px) {
+  html{
+    font-size: 58%; 
+  }
+}
+
+@media (max-width: 460px) {
+  html{
+    font-size: 55%; 
+  }
+}
+
+body { 
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background: #ff3333;
+  height: 7.03em;
+  width: 100%;
+  align-items:center;
+  position: fixed;
+  z-index:999;
+}
+
+@media (max-width: 460px) {
+  header{
+    justify-content: center;
+  }
+}
+
+nav {
+  background: ;
+}
+
+nav ul {
+  display: flex;
+  list-style:none;
+  
+}
+
+nav ul li {
+  
+}
+
+.ab, .wo, .co {
+  color: white;
+  text-decoration: none;
+  font-size:2.11em;
+  padding: 0.98em;
+  background-color:#ff3333; 
+}
+
+.co {
+  margin-right: 0.8em;
+}
+
+@media (max-width: 460px) {
+  .co {
+  margin-right: 0.1em;
+}
+}
+
+.ab:hover {
+  background-color: #2f1d47;
+  color: white;
+}
+.wo:hover {
+  background-color: #2f1d47;
+  color: white;
+}
+.co:hover {
+  background-color: #2f1d47;
+  color: white;
+}
+
+
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 100vh;
+  background:linear-gradient(35deg, #303030, #181818);
+  text-align:center;
+}
+
+h1 {
+  color:white;
+  font-size: 5.3em;
+}
+
+p {
+  font-size: 2.6em;
+  color:#ff3333;
+  font-weight: lighter;
+}
+
+#rect {
+  font-size:3em;
+  position: relative;
+  animation-name: rainbow;
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+  animation-timing-function:linear; 
+}
+
+@keyframes rainbow {
+  0% {
+    transform:rotate(0) scale(1);
+    color:Violet;
+  }
+  20% {
+    color:Indigo;
+  }
+  40% {
+    color:Blue;
+  }
+  50% {
+    transform:rotate(180deg) scale(0.5);
+    opacity:0.1;
+    color:Green;
+  }
+  60% {
+    color:Yellow;
+  }
+  80% {
+    color:Orange;
+  }
+  100% {
+     transform:rotate(360deg) scale(1);
+    color:Red;
+  }
+}
+
+/* next time use padding for space on the left and right of the page and not extra grids!! */
+#projects {
+  background:linear-gradient(35deg, #6666ff, #3333ff);
+  text-align:center;
+}
+
+.protec {
+  
+}
+
+h2 {
+  color:white;
+  font-size: 3.6em; 
+   padding-left:1em;
+  padding-right:1em;
+}
+
+#border {
+  border-bottom: 2px solid white; 
+  width:36.5%;
+  margin-left:32%;
+}
+
+.container {
+  display: grid;
+  background: ; 
+  width: 100%;
+  grid-template-columns: 0.5fr 3fr 3fr 3fr 0.5fr;
+  grid-template-rows: 4fr 4fr; 
+  grid-gap: 4em;
+  grid-template-areas:
+    "space1 content1 content2 content3 space2"
+    "space1 content4 content5 content6 space2"
+    ;
+}
+
+@media (max-width: 980px) {
+  .container {
+    grid-template-columns: 0.3fr 3fr 3fr 0.3fr;
+  grid-template-rows: 4fr 4fr 4ft; 
+  grid-gap: 4em;
+  grid-template-areas:
+    "space1 content1 content2 space2"
+    "space1 content3 content4 space2"
+    "space1 content5 content6 space2"
+    ;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    grid-template-columns: 0.1fr 3fr 0.1fr;
+  grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr; 
+  grid-gap: 4em;
+  grid-template-areas:
+    "space1 content1 space2"
+    "space1 content2 space2"
+    "space1 content3 space2"
+    "space1 content4 space2"
+    "space1 content5 space2"
+    "space1 content6 space2"
+    ;
+  }
+}
+
+.item1 {
+    background: ;
+    grid-area:space1;
+  }
+
+  #item2 {
+    
+    grid-area:content1;
+  }
+
+  #item3 {
+    
+    grid-area:content2;
+  }
+
+  #item4 {
+    
+    grid-area:content3;
+  }
+
+.item5 {
+  background:;
+  grid-area:space2;
+}
+
+#item6 {
+  
+  grid-area:content4;
+}
+
+#item7 {
+  grid-area:content5;
+  
+}
+
+#item8 {
+  grid-area:content6;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.link {
+  background:#262626; 
+  border-radius: 2px;
+  box-shadow: 1.5px 1.5px 3px black;
+}
+
+.code {
+  color:#262626;
+  transition: color 0.3s ease-out;
+}
+
+.link:hover .code {
+  color: #ff7f50;
+}
+/*got a problem with diffrent height images heh*/
+.link-image {
+  width:100%; 
+  height: calc(100% - 6em);
+  object-fit: cover;
+}
+
+.project-tile{
+  color:white;
+  padding:0.5em;
+}
+
+.bobo {
+  padding:0.7em;
+  background-color:#262626 ;
+border-radius: 3px;
+border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size:20px;
+}
+
+.bobo:hover{
+  background-color:#ff3333 ;
+}
+
+.bobo > i {
+  margin-left:4px;
+  transform: translateX(0);
+  transition: 0.5s;
+}
+
+.bobo:hover > i {
+  transform: translateX(8px) rotate(360deg);
+  
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background:#003366;
+  width: 100%;
+  height: 80vh;
+  padding-left:2em;
+  padding-right:2em:
+}
+
+h3 {
+  font-size:5em;
+  color:#fff;
+}
+
+.owo { 
+  font-size: 1.8em;
+  color:#fff;
+  
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top:2em;
+  flex-wrap: wrap;
+}
+
+.uwu {
+  font-size:2em;
+  padding:0.9em;
+  text-shadow: 2px 2px 8px #FF0000;
+  transition: 0.5s;
+}
+
+.uwu:hover {  
+  transform: translateY(8px);
+}
+
+footer { 
+  text-align:center;
+  background:#003366;
+  width: 100%;
+  padding-left:2em;
+  padding-right:2em:
+}
+
+footer p {
+  color:#fff;
+}
